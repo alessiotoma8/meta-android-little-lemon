@@ -26,7 +26,7 @@ Little lemon is the Capstone project for Meta's Android Developer Course on Cour
 Simply clone this repository and open LittleLemon folder (android project folder) in android studio. To clone:
 
 ```
-  https://github.com/sDevPrem/little-lemon.git
+  https://github.com/alessiotoma8/meta-android-little-lemon.git
 ```
 
 ## Architecture
@@ -35,7 +35,7 @@ This app made using Android recommended [MVVM]("https://developer.android.com/to
 
 * `data` - It is the data layer which contains class realated to database.
 
-  * `local` - local data base(Room)
+  * `cache` - local data base(Room)
   * `network` - REST Client
   * `model` - data classes
 * `ui` - It is UI layer which contains composable, view-models and navigation.
