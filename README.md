@@ -34,8 +34,13 @@ Simply clone this repository and open LittleLemon folder (android project folder
 This app made using Android recommended [MVVM]("https://developer.android.com/topic/architecture") Architecture. Packages and their roles:
 
 * `data` - It is the data layer which contains class realated to database.
-
   * `cache` - local data base(Room)
   * `network` - REST Client
-  * `model` - data classes
-* `ui` - It is UI layer which contains composable, view-models and navigation.
+  * `util` - util functions
+
+* `domain` - Containing business logic and use cases.
+
+* `composables` - It is UI layer which contains composable, view-models and navigation.
+  * `screen` -  Ui components containing screens for navigation destinations.
+  * `navigation` - Contains navigation graph and routes.
+
